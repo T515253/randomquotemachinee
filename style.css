@@ -1,0 +1,101 @@
+body {
+  background: black;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 25;
+  padding-bottom: 25;
+  font-family: 'Arima Madurai', cursive;
+  color: beige;
+}
+
+#title h1 {
+  color: #FFFCCA;
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 70px;
+  text-shadow: rgb(3, 3, 3) -1px 4px 9px;
+}
+
+#title h3 {
+  text-align: center;
+  font-family: 'Qwigley', cursive;
+  color: green;
+  font-size: 40px;
+  margin-top: -30px;
+}
+
+.fa-leaf {
+  color: #197f11;
+}
+
+.fa-rocket {
+  color: #aa6a34;
+}
+
+.fa-twitter {
+  color: #0084b4;
+}
+
+.message {
+  background-color: beige;
+  color: black;
+  text-align: center;
+}
+
+#nextQuote {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 20px;
+}
+
+#nextName {
+  font-family: 'Qwigley', cursive;
+  font-size: 35px;
+}
+
+
+/* Button design for to click for new quotes */
+
+.btn {
+  background-color: beige;
+  /* Green */
+  border-radius: 30px;
+  box-shadow: rgb(3, 3, 3) -1px 4px 9px;
+  color: black;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+h2 {
+  color: green;
+  /*   font-family: Arial; */
+  font-weight: 900;
+  text-shadow: rgb(255, 255, 204) -1px 4px 9px;
+  -webkit-text-fill-color: green;
+  -webkit-text-stroke-color: ;
+  -webkit-text-stroke-width: 2.0px;
+}
+
+.creditsBox {
+  color: GREEN;
+  font-size: 22px;
+  text-shadow: rgb(255, 255, 204) 2px 2px 5px;
+  -webkit-text-fill-color: green;
+  -webkit-text-stroke-color: ;
+  -webkit-text-stroke-width: 2.0px;
+}
+
+.footer {
+  height: 60px;  /* footer height */
+  padding-top: 20px;
+  display: block;
+  margin-top: 20px;  /* space between content and footer */
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
